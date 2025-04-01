@@ -1,0 +1,33 @@
+
+      /* Styles CSS intégrés pour simplifier */
+      .shopping-card-container {
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        margin: 20px 0;
+      }
+      .total-price {
+        font-size: 1.5rem;
+        text-align: right;
+        margin-bottom: 20px;
+      }
+      .list-products {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+      }
+      .card {
+        transition: all 0.3s ease;
+      }
+      .quantity {
+        margin: 0 10px;
+        font-size: 1.2rem;
+      }
+      .fa-heart.text-danger {
+        color: red;
+      }
+      .fa-trash-alt {
+        color: #dc3545;
+      }
+   
